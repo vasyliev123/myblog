@@ -22,7 +22,9 @@ export default function RootLayout({
       <body className="bg-fixed bg-cover" style={{ backgroundImage: "url('/images/bg.jpg')" }}>
       <NavBar /> 
         {children}
+        <iframe src="https://scratch.mit.edu/projects/933457919/embed" allowTransparency={true} width="485" height="402" frameBorder="0" scrolling="no" allowFullScreen></iframe>
         <Footer />
+        
       </body>
     </html>
   )

@@ -30,7 +30,7 @@ export default function Home(
       <div className="h-screen bg-cover flex flex-row items-center justify-between ">
         <div className="flex flex-col items-center m-auto text-center opacity-1" data-aos="fade-up">
           <h1 className="mb-4 text-5xl font-extrabold text-gray-900 dark:text-white md:text-6xl lg:text-8xl"><span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-purple-400">Dmytro Vasyliev</span></h1>
-          <p className="text-lg font-bold text-gray-100 md:text-xl lg:text-3xl dark:text-gray-200">Software developer, Soloprenuer, Fantasy enthusiast</p>
+          <p className="text-lg font-bold text-gray-100 md:text-xl lg:text-3xl dark:text-gray-200">Software developer, Solopreneur, Fantasy enthusiast</p>
           {/* contact me button */}
           <Link href="#contact">
           <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-bold rounded-lg text-md p-2 pl-5 pr-5 mt-5">Contact Me</button>
@@ -88,7 +88,7 @@ export default function Home(
         </div>  
       </div>
         {/* project overview*/}
-      <div id='projects' className=' flex flex-col bg-gradient-to-b from-cool-black-dark  to-cool-black-light relative items-center h-fit md:h-screen p-2' >
+      <div id='projects' className=' flex flex-col bg-gradient-to-b from-cool-black-dark  to-cool-black-light relative items-center h-fit p-2' >
       {/* First Image */}
         <Image
           src='/images/pnga.png'
@@ -107,7 +107,7 @@ export default function Home(
           className='md:hidden  h-screen bottom-0 object-none transform   absolute'
         />
       
-        <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 items-center mt-20 mb-20'>
+        <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 items-center mt-20 mb-20 justify-between'>
        
           <div className='h-80 w-fit md:w-72 bg-cool-black-dark rounded-xl p-5 backdrop-blur-lg bg-opacity-60 transition-all border border-gray-800'>
             <h1>Project 1</h1>
